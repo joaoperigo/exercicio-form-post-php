@@ -1,0 +1,44 @@
+body {
+    background-color: #237b9a;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eeff00;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+form {
+    width:600px;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    margin: 5px;
+    color: #312828;
+    outline: 0;
+    border: 0;
+    padding: 5px;
+}
+button {
+    background-color: #ec27dc;
+    color: #312828;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color:  #312828;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  #312828;
+  }
+  
+  ::placeholder {
+    color:  #312828;
+  }
+  ul {
+      width: 600px;
+      margin: 30px auto;
+      font-size: 4rem;
+      text-align: center;
+  }
